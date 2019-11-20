@@ -1,0 +1,66 @@
+<div class="card">  
+  <div class="card-body">  
+    <form [formGroup]="angForm" novalidate>  
+      <div class="form-group">  
+        <label class="col-md-4">Payee Name</label>  
+        <input type="text" class="form-control"   
+          formControlName="PayeeName"   
+          #PayeeName />  
+      </div>  
+      <div *ngIf="angForm.controls['PayeeName'].invalid && (angForm.controls['PayeeName'].dirty || angForm.controls['PayeeName'].touched)" class="alert alert-danger">  
+        <div *ngIf="angForm.controls['PayeeName'].errors.required">  
+          Payee Name is required.  
+        </div>  
+      </div>  
+      <div class="form-group">  
+        <label class="col-md-4">Payee Account Number </label>  
+        <input type="text" class="form-control"   
+        formControlName="PayeeAccountNumber"   
+        #PayeeAccountNumber />  
+      </div>  
+      <div *ngIf="angForm.controls['PayeeAccountNumber'].invalid && (angForm.controls['PayeeAccountNumber'].dirty || angForm.controls['PayeeAccountNumber'].touched)" class="alert alert-danger">  
+        <div *ngIf="angForm.controls['PayeeAccountNumber'].errors.required">  
+          Payee Account Number is required.  
+        </div>  
+      </div>  
+      <div class="form-group">  
+        <label class="col-md-4">Confirm Payee Account Number </label>  
+        <input type="text" class="form-control"   
+        formControlName="PayeeAccountNumber" />  
+      </div>  
+      <div *ngIf="angForm.controls['PayeeAccountNumber'].invalid && (angForm.controls['PayeeAccountNumber'].dirty || angForm.controls['PayeeAccountNumber'].touched)" class="alert alert-danger">  
+        <div *ngIf="angForm.controls['PayeeAccountNumber'].errors.required">  
+          Payee Account Number is required.  
+        </div>  
+      </div>
+      <div class="form-group">  
+        <label class="col-md-4">IFSC Code</label>  
+        <input type="text" class="form-control"   
+        formControlName="PayeeIFSCCode"   
+        #PayeeIFSCCode />  
+      </div>  
+      <div *ngIf="angForm.controls['PayeeIFSCCode'].invalid && (angForm.controls['PayeeIFSCCode'].dirty || angForm.controls['PayeeIFSCCode'].touched)" class="alert alert-danger">  
+        <div *ngIf="angForm.controls['PayeeIFSCCode'].errors.required">  
+          IFSC Code is required.  
+        </div>  
+      </div> 
+      <div class="form-group">  
+        <label class="col-md-4">Remarks</label>  
+        <input type="text" class="form-control"   
+        formControlName="PayeeRemarks"   
+        #PayeeRemarks />  
+      </div>  
+      <div *ngIf="angForm.controls['PayeeRemarks'].invalid && (angForm.controls['PayeeRemarks'].dirty || angForm.controls['PayeeRemarks'].touched)" class="alert alert-danger">  
+        <div *ngIf="angForm.controls['PayeeRemarks'].errors.required">  
+          Remarks is required.  
+        </div>  
+      </div>      
+      <div class="form-group">  
+        <button (click) = "addPayee(PayeeName.value, PayeeAccountNumber.value, PayeeIFSCCode.value, PayeeRemarks.value)" type="submit" class="btn btn-primary"  
+        [disabled]="angForm.pristine || angForm.invalid" >  
+          Create Payee  
+        </button>  
+</div>  
+    </form>  
+  </div>  
+</div>  

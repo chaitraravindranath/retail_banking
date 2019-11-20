@@ -1,0 +1,102 @@
+{
+  "payees": [
+    {
+      "PayeeName": "Aishwarya Rai",
+      "PayeeAccountNumber": "2022876547893",
+      "PayeeIFSCCode": "SBIN0040005",
+      "PayeeRemarks": "SBI Branch",
+      "id": 4
+    },
+    {
+      "PayeeName": "Deepika Padukone",
+      "PayeeAccountNumber": "2022876547894",
+      "PayeeIFSCCode": "SBIN0040271",
+      "PayeeRemarks": "SBI Branch",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "PayeeName": "Hema Malini",
+      "PayeeAccountNumber": "2022876547895",
+      "PayeeIFSCCode": "SBIN0040271",
+      "PayeeRemarks": "SBI Branch"
+    },
+    {
+      "id": 8,
+      "PayeeName": "Sharuk Khan",
+      "PayeeAccountNumber": "2022876547897",
+      "PayeeIFSCCode": "SBIN0040271",
+      "PayeeRemarks": "SBI Branch"
+    },
+    {
+      "id": 9,
+      "PayeeName": "Salman Khan",
+      "PayeeAccountNumber": "2022876547898",
+      "PayeeIFSCCode": "SBIN0040271",
+      "PayeeRemarks": "SBI Branch"
+    },
+    {
+      "id": 10,
+      "PayeeName": "Amir Khan",
+      "PayeeAccountNumber": "2022876547899",
+      "PayeeIFSCCode": "SBIN0040271",
+      "PayeeRemarks": "SBI Branch"
+    },
+    {
+      "id": 12,
+      "PayeeName": "Priyanka Chopra",
+      "PayeeAccountNumber": "2022876547882",
+      "PayeeIFSCCode": "SBIN0040271",
+      "PayeeRemarks": "SBI Branch"
+    },
+    {
+      "id": 13,
+      "PayeeName": "Kareena Kapoor",
+      "PayeeAccountNumber": "2022876547883",
+      "PayeeIFSCCode": "SBIN0040271",
+      "PayeeRemarks": "SBI Branch"
+    },
+    {
+      "PayeeName": "Chaitra R",
+      "PayeeAccountNumber": "1234321234111",
+      "PayeeIFSCCode": "SBIN0040270",
+      "PayeeRemarks": "SBI Branch",
+      "id": 14
+    },
+    {
+      "PayeeName": "Pradeep Katla",
+      "PayeeAccountNumber": "9878679087660",
+      "PayeeIFSCCode": "ICIC0000553",
+      "PayeeRemarks": "ICICI Bank",
+      "id": 15
+    },
+    {
+      "PayeeName": "Chaitra R",
+      "PayeeAccountNumber": "98765678909999",
+      "PayeeIFSCCode": "SBIN0089707",
+      "PayeeRemarks": "SBI Branch",
+      "id": 16
+    },
+    {
+      "PayeeName": "Vishnuvardhan",
+      "PayeeAccountNumber": "9876543211234",
+      "PayeeIFSCCode": "SBIN0078906",
+      "PayeeRemarks": "SBI Account",
+      "id": 18
+    },
+    {
+      "PayeeName": "Sudeep",
+      "PayeeAccountNumber": "8787865478065",
+      "PayeeIFSCCode": "SBIN0067897",
+      "PayeeRemarks": "SBI Branch",
+      "id": 19
+    },
+    {
+      "PayeeName": "Darshan",
+      "PayeeAccountNumber": "98987654332322",
+      "PayeeIFSCCode": "SBIN0040890",
+      "PayeeRemarks": "SBI Branch",
+      "id": 20
+    }
+  ]
+}
